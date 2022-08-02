@@ -8,6 +8,7 @@ public class Main {
             if (yearFlight % 79 == 0 ) {
                 if ( (yearFlight + periodFlight) < 2102 && 1822 < (yearFlight + periodFlight) ){
                     // Выводим сообщение
+
                     System.out.println("лётный год " + (yearFlight + periodFlight));
                 }
             }
